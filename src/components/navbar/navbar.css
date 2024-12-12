@@ -1,0 +1,35 @@
+.main
+ {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+ }
+ .container
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ul {
+   list-style: none;
+   display: flex;
+   gap: 100px;
+ }
+ 
+ul li {
+   display: inline;
+ }
+ 
+ul li , ul li button {
+   color: white;
+   text-decoration: none;
+   background: none;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ul li:hover, ul li button:hover {
+   text-decoration: underline;
+ }

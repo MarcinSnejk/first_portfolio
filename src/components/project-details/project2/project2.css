@@ -1,0 +1,69 @@
+.project2-container 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 700px;
+      
+  }
+
+.project2-content
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+
+ }
+
+.p2-leftside, .p2-rightside
+ {
+    width: 50%;
+    margin: 0 10px;
+    padding: 10px;
+ }
+
+.p2-biggertxt 
+ {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+
+.p2-smallertxt
+ {
+    font-size: 24px;
+ }
+
+.p2-content_button
+ {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+ }
+
+.p2-button
+ {
+    width: 150px;
+    height: 40px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+ }
+
+.p2-button:hover
+ {
+    background-color: #1b80e5;
+ }

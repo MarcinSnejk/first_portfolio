@@ -1,0 +1,38 @@
+.maincon
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    min-height: 600px;
+    min-width: 1400px;
+    padding: 0px;
+
+ }
+
+ .content
+  {
+    display: flex;
+    justify-content: space-between;
+
+    width: 60%;
+    height: auto;
+    padding: 0px;
+
+
+  }
+
+.leftside , .rightside
+ {
+    width: 30%;
+    margin: 0 10px;
+    height: auto;
+ }
+
+ #pic
+  {
+    width: 400px;
+    height: 400px;
+    display: flex;
+
+  }
